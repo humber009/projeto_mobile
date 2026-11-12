@@ -9,7 +9,7 @@ export default function LoginScreen({ navigation }) {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    // Simulação simples de login indo para a tela principal (Abas)
+
     navigation.replace("MainTabs");
   };
 
